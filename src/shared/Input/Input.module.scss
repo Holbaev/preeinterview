@@ -1,0 +1,22 @@
+:root {
+  --background: #a7d7c5;
+  --form-bg: #f6fbf9;
+  --heading: #212b27;
+  --paragraph: #32403b;
+  --placeholder: rgba(0, 0, 0, 0.5);
+  --cta: #fff;
+  --box: #c1e3d6;
+}
+.input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 85%;
+  color: var(--placeholder);
+  border: 1.53px solid #858585;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px 20px;
+  background: var(--cta);
+  outline: none;
+  opacity: 0;
+}

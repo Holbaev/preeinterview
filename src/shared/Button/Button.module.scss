@@ -1,0 +1,13 @@
+.btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--cta);
+    border-radius: 6px;
+    transition: background-position 0.25s, background-color 0.45s;
+    background: #318CE7;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: none;
+}
