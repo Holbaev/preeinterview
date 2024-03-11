@@ -94,7 +94,7 @@ const LoginForm = () => {
               flexDirection: "column",
             }}
           >
-            <h3 className="login_title">ACCOUNT LOGIN Aiba</h3>
+            <h3 className="login_title">ACCOUNT LOGIN</h3>
             <p className="login_text">
               Log in to enjoy all the services without any ads for free!
             </p>
