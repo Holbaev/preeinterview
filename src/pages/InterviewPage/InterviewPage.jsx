@@ -5,6 +5,7 @@ import Button from "../../shared/Button/Button";
 import ModalWindow from "../../shared/Modalwindow/Modalwindow";
 import { AnimatePresence } from "framer-motion";
 import Input from "../../shared/Input/Input";
+import PostProfile from "../../features/Profile/PostProfile/PostProfile";
 
 const InterviewPage = () => {
   // states
@@ -16,12 +17,7 @@ const InterviewPage = () => {
   return (
     <Layout>
       <div className={styles.wrapper}>
-        <button onClick={() => setVisible(true)}>
-          open
-        </button>
-        <ModalWindow title="Text" visible={visible}  setVisible={setVisible}>
-        <p>Hello World</p>
-        </ModalWindow>
+        <PostProfile/>
       </div>
     </Layout>
   );

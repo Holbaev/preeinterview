@@ -8,15 +8,41 @@
   --box: #c1e3d6;
 }
 .input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.label {
+  font-weight: 700;
+  font-size: 16px;
+  color: #384d6c;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input_field {
   font-weight: 400;
   font-size: 16px;
-  line-height: 85%;
   color: var(--placeholder);
-  border: 1.53px solid #858585;
+  border: 2px solid #858585;
   border-radius: 6px;
   width: 100%;
   padding: 10px 20px;
-  background: var(--cta);
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
   outline: none;
-  opacity: 0;
+}
+.error {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  font-weight: 600;
+  color: #ff0000;
+  background-color: #ffcccc;
+  border-radius: 6px;
 }
